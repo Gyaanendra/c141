@@ -18,7 +18,6 @@ app = Flask(__name__)
 def get_movie():
     movie_data = {
         "title": all_movies[0][19],
-        "poster_link": all_movies[0][27],
         "release_date": all_movies[0][13] ,
         "duration": all_movies[0][15],
         "rating": all_movies[0][20],
